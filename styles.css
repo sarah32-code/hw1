@@ -1,0 +1,51 @@
+body {
+    background-image: url('background-image.jpeg');
+    background-size: cover;
+    font-family: 'Serif', sans-serif; 
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    color: rgb(186, 16, 216);
+}
+
+.headshot {
+    text-align: center;
+}
+
+.headshot img {
+    width: 150px; 
+    height: 150px; 
+}
+
+.headshot h2 {
+    text-align: center; 
+}
+
+
+.content ul {
+    list-style-type: none;
+}
+
+.content ul li:nth-child(odd) {
+    background-color: #ebb1df; 
+}
+
+.content ul li:nth-child(even) {
+    background-color: #f0dec9; 
+}
+
+.content ul li a {
+    color: #1d2022;
+}
+
+
+a:hover {
+    color: #FF5733; 
+    text-decoration: underline; 
+
+
+}
